@@ -1,0 +1,25 @@
+{
+  "name": "@motioned-official/react-functions",
+  "version": "1.0.0",
+  "description": "Utility functions that functional react components can consume.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "motioned-official",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motioned-official/react-functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motioned-official/react-functions/issues"
+  },
+  "homepage": "https://github.com/motioned-official/react-functions#readme"
+}
