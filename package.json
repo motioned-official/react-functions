@@ -1,6 +1,6 @@
 {
   "name": "@motioned-official/react-functions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utility functions that functional react components can consume.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

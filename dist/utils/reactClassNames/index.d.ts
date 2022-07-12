@@ -5,12 +5,12 @@
  * @param {Array<string>} ...strings list of strings that will be boolean-evaluated.
  * @returns {string} Returns a joined string after boolean-evaluation.
  * @example
- * classify('h', 'i');
+ * reactClassNames('h', 'i');
  * // => 'hi'
- * classify('Awesome', '', false, '.');
+ * reactClassNames('Awesome', '', false, '.');
  * // => 'Awesome.'
- * classify('bg-red-400 transition-all', 1 === 0 ? 'text-white' : 'text-blue');
+ * reactClassNames('bg-red-400 transition-all', 1 === 0 ? 'text-white' : 'text-blue');
  * // => 'bg-red-400 text-blue'
  */
-declare const __classify: (...strings: string[]) => string;
-export { __classify as classify };
+declare const __reactClassNames: (...strings: string[]) => string;
+export default __reactClassNames;
